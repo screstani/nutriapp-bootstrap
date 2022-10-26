@@ -1,0 +1,39 @@
+.home {
+    width: fit-content;
+    height: fit-content;
+    /* oq permite centralizar de forma horizontal e vertical */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 940px;
+    margin: 0 auto;
+    /* esse padding dá um pouco de espaço no caso da tela estar pequena*/
+    padding: 2rem;
+}
+
+.home > * {
+    width: initial;
+}
+
+
+.home::before {
+    content: "";
+    background: url("banner.jpeg") no-repeat center fixed;
+    background-size: 1320px;
+    position: absolute;
+    top: 180px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+.main-title {
+    margin: 200px;
+    position: relative;
+    color: #4d231b;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
