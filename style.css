@@ -20,7 +20,7 @@
     content: "";
     background: url("banner.jpeg") no-repeat center fixed;
     background-size: 1320px;
-    position: absolute;
+    position: fixed;
     top: 180px;
     bottom: 0px;
     right: 0px;
@@ -30,10 +30,14 @@
 
 .main-title {
     margin: 200px;
-    position: relative;
+    position: fixed;
     color: #4d231b;
     font-size: larger;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.sobremim {
+    position: fixed
 }
 
 
